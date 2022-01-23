@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/layers/static/css/main.fa50ac41.css",
-    "main.js": "/layers/static/js/main.5dfbdda6.js",
+    "main.js": "/layers/static/js/main.5696e196.js",
     "static/js/787.23320170.chunk.js": "/layers/static/js/787.23320170.chunk.js",
     "static/media/lacoste01.jpg": "/layers/static/media/lacoste01.b5046476da636035aff2.jpg",
     "static/media/lacoste03.jpg": "/layers/static/media/lacoste03.6f73f3c70cfb5f32909a.jpg",
@@ -30,11 +30,11 @@
     "static/media/apple02.jpg": "/layers/static/media/apple02.5b1444a7313895431641.jpg",
     "index.html": "/layers/index.html",
     "main.fa50ac41.css.map": "/layers/static/css/main.fa50ac41.css.map",
-    "main.5dfbdda6.js.map": "/layers/static/js/main.5dfbdda6.js.map",
+    "main.5696e196.js.map": "/layers/static/js/main.5696e196.js.map",
     "787.23320170.chunk.js.map": "/layers/static/js/787.23320170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa50ac41.css",
-    "static/js/main.5dfbdda6.js"
+    "static/js/main.5696e196.js"
   ]
 }
