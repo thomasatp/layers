@@ -71,9 +71,9 @@ function Header() {
     <Container display={display}>
       <Brand>
         <Logo color={colors.light} />
-        <Link to="/">Design intentions</Link>
+        <Link to="/layers">Design intentions</Link>
       </Brand>
-      {/*<Nav ref={panel} className="panel" display={display}>
+      <Nav ref={panel} className="panel" display={display}>
         <ul>
           <li>
             <Link ref={link} className="link" onClick={close} to="/typography">
@@ -91,12 +91,12 @@ function Header() {
             </Link>
           </li>
         </ul>
-  </Nav>*/}
-      {/*<Burger onClick={display ? close : open} display={display}>
+      </Nav>
+      <Burger onClick={display ? close : open} display={display}>
         <span display={display} />
         <span display={display} />
         <span display={display} />
-</Burger>*/}
+      </Burger>
     </Container>
   );
 }
@@ -109,7 +109,7 @@ const Container = styled.header`
   position: sticky;
   top: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 12rem;

@@ -126,10 +126,6 @@ const DescriptionContainer = styled.div`
     margin-bottom: 3.2rem;
   }
 
-  p {
-    font-size: 2.6rem;
-  }
-
   @media screen and (max-width: 1190px) {
     padding: 3.2rem 1.6rem;
 
@@ -147,8 +143,8 @@ const Description = styled.div`
   p {
     display: flex;
     flex: 1;
-    font-size: 2.4rem;
-    color: ${colors.mediumDark};
+    font-size: 1.6rem;
+    color: ${colors.dark};
     margin-right: 4rem;
   }
 

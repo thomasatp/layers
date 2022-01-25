@@ -11,16 +11,18 @@ import Cursor from "./components/Cursor";
 import Header from "./components/Header";
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Header />
-      <Cursor />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/typography" element={<Typography />} />
-        <Route exact path="/Layouts" element={<Layouts />} />
-        <Route exact path="/Animations" element={<Animations />} />
-      </Routes>
-    </BrowserRouter>
+    {
+      <BrowserRouter>
+        <Header />
+        <Cursor />
+        <Routes>
+          <Route exact path="/layers" element={<Home />} />
+          <Route exact path="/layers/typography" element={<Typography />} />
+          <Route exact path="/layers/Layouts" element={<Layouts />} />
+          <Route exact path="/layers/Animations" element={<Animations />} />
+        </Routes>
+      </BrowserRouter>
+    }
   </React.StrictMode>,
   document.getElementById("root")
 );
